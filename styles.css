@@ -1,0 +1,112 @@
+/* Center Page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #372f2f;
+    font-family: Arial, sans-serif;
+}
+
+/* To-Do Box */
+.container {
+    width: 350px;
+    background: #a49f9f; /* transparent white */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.container h1 {
+    text-align: center;
+    color: #3333339b;
+    margin-bottom: 20px;
+}
+
+/* Input + Button */
+.input-section {     
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #101010;
+    border-radius: 6px;
+    outline: none;
+}
+
+#addBtn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #656869, #454648);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    box-shadow: 0 4px 12px rgba(145, 146, 148, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+#addBtn:hover {
+    background: linear-gradient(135deg, #65686a, #444546);
+    box-shadow: 0 6px 16px rgba(125, 126, 127, 0.55);
+    transform: translateY(-2px);
+}
+
+#addBtn:active {
+    transform: scale(0.97);
+}
+
+
+/* Task List */
+ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Clear All Button */
+.clear-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #6e7071, #424244);
+    color: #fff;
+    font-weight: 600;
+
+    box-shadow: 0 4px 12px rgba(107, 108, 110, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.clear-btn:hover {
+    background: linear-gradient(135deg, #545556, #393a3b);
+    box-shadow: 0 6px 16px rgba(133, 135, 136, 0.55);
+    transform: translateY(-2px);
+}
+
+.clear-btn:active {
+    transform: scale(0.98);
+}
+
