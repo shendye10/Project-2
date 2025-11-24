@@ -1,1 +1,7 @@
-This is a simple and interactive To-Do List web application built using HTML, CSS, and JavaScript. It helps users manage tasks efficiently by adding, marking as completed, and deleting tasks.
+Add Tasks: Users can add new tasks to the list.
+
+Delete Tasks: Remove tasks from the list easily.
+
+Clear All: Clear all tasks at once.
+
+Responsive Design: Works on mobile, tablet, and desktop screens.
